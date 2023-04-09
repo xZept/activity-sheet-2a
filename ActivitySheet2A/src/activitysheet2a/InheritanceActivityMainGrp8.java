@@ -14,7 +14,9 @@ public class InheritanceActivityMainGrp8 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Shadi");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("test");
+        }
     }
     
 }
