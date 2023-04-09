@@ -4,6 +4,7 @@ import java.util.*;
 
 public class MemberClassGrp8 {
     
+    //Method for getting user's name
     public String getName(){
     
         Scanner io = new Scanner(System.in);
@@ -14,6 +15,7 @@ public class MemberClassGrp8 {
         return name;    
     }
     
+    //Method for getting user's name
     public String getMemType(){
         
         Scanner io = new Scanner(System.in);
