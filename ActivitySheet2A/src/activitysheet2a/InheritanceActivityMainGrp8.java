@@ -13,7 +13,7 @@ public class InheritanceActivityMainGrp8 {
         String memtype = getMemType.getMemType();
         
         
-        }
+        
     }
     
 }
