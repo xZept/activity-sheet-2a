@@ -12,9 +12,7 @@ public class InheritanceActivityMainGrp8 {
         System.out.println("Enter Member Type: ");
         String memtype = getMemType.getMemType();
         
-        System.out.println("Shadi");
-        for (int i = 0; i < 10; i++) {
-            System.out.println("test");
+        
         }
     }
     
