@@ -7,7 +7,7 @@ public class TeachingClassGrp8 extends EmployeeClassGrp8 {
     public double getHours() {
         System.out.print("\nEnter number of hours worked in a month: ");
         hours = scan.nextInt();
-        days /= 8;
+        days = hours / 8;
         return EmployeeClassGrp8.computeSalary(days);
     }
 }
