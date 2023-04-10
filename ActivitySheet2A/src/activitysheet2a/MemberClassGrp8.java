@@ -10,12 +10,12 @@ public class MemberClassGrp8 {
 
     // Accepts the member's name and returns the value
     public String getName() {
-        System.out.print("Enter member name: " );
+        System.out.print("Enter member name: ");
         name = scan.nextLine();
         return name;
     }
 
-    // Getter for name
+    // Accepts the member type and returns the value
     public String getMemType() {
         System.out.print("Enter member type: ");
         memType = scan.nextLine();

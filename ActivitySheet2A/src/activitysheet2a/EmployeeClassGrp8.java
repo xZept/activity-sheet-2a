@@ -1,11 +1,9 @@
 package activitysheet2a;
 
 public class EmployeeClassGrp8 extends MemberClassGrp8 {
-    
-    private int days;
-    
-    // Compute the monthly salary based number of days worked
-    public double computeSalary(int days) {
+
+    // A static method that can be used by child classes
+    public static double computeSalary(double days) {
         return days * 345.50;
     }
 }
