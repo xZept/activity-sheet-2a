@@ -1,30 +1,24 @@
 package activitysheet2a;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class MemberClassGrp8 {
-    
-    //Method for getting user's name
-    public String getName(){
-    
-        Scanner io = new Scanner(System.in);
-    
-        String name;
-        name = io.nextLine();
-   
-        return name;    
+
+    Scanner scan = new Scanner(System.in);
+
+    private String name, memType;
+
+    // Accepts the member's name and returns the value
+    public String getName() {
+        System.out.print("Enter member name: " );
+        name = scan.nextLine();
+        return name;
     }
-    
-    //Method for getting user's name
-    public String getMemType(){
-        
-        Scanner io = new Scanner(System.in);
-    
-        String membertype;
-        membertype = io.nextLine();
-   
-        return membertype;     
-    
+
+    // Getter for name
+    public String getMemType() {
+        System.out.print("Enter member type: ");
+        memType = scan.nextLine();
+        return memType;
     }
-    
 }
