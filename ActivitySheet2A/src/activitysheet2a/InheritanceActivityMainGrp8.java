@@ -26,17 +26,29 @@ public class InheritanceActivityMainGrp8 {
         System.out.print("\n"); // Whitespace
         InheritanceActivityMainGrp8 greetUser = new InheritanceActivityMainGrp8();
         
+        int value; 
         // Check member type
         switch (memType.toLowerCase()) {
             case "employee":
                 EmployeeClassGrp8 emp = new EmployeeClassGrp8();
-                System.out.println(emp.computeSalary());
+                System.out.print("Enter number of days worked in a month: ");
+                value = scan.nextInt();
+                System.out.println(emp.computeSalary(value));
             case "teaching":
-                
+                TeachingClassGrp8 teach = new TeachingClassGrp8();
+                System.out.println("Enter number of hours worked in a month: ");
+                value = scan.nextInt();
+                System.out.println(teach.getHours(value));
             case "non-teaching":
-                
+                NonteachingClassGrp8 nonTeach = new NonteachingClassGrp8();
+                System.out.print("Enter number of days worked in a month: ");
+                value = scan.nextInt();
+                System.out.println(nonTeach.getDays(value));
             case "student":
-                
+                StudentClassGrp8 student = new StudentClassGrp8();
+                System.out.print("Enter number of units enrolled: ");
+                value = scan.nextInt();
+                System.out.println(student.getUnits(value));
             default:
                 
         }
