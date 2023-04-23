@@ -1,7 +1,5 @@
 package activitysheet2a;
 
-import java.util.Scanner;
-
 public class InheritanceActivityMainGrp8 {
 
     static String name, memType;
