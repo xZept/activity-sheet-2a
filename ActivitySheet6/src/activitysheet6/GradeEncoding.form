@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField8"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane2" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblUnits" min="-2" pref="37" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblMmw" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblComOrg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFoLa" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblDiscrete" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAqua" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="btnSave" min="-2" pref="56" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Component id="btnCompute" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblNstp" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtFoLa" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtComProg" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtMmw" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="txtComOrg" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtDiscrete" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtAqua" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtNstp" alignment="1" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPurCom" alignment="1" pref="0" max="32767" attributes="0"/>
+                                      <Component id="txtSineSos" min="-2" pref="46" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblFinal" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblGrades" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblRemarks" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="cmbBoxMmw" min="-2" pref="62" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblComProg" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cmbBoxFoLa" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="cmbBoxComProg" min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="cmbBoxComOrg" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="cmbBoxDiscrete" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="cmbBoxAqua" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="cmbBoxNstp" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="txtFinal" alignment="1" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblSineSos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPurCom" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmbBoxSineSos" min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="cmbBoxPurCom" min="-2" pref="62" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblRemSineSos" max="32767" attributes="0"/>
+                              <Component id="lblRemPurCom" max="32767" attributes="0"/>
+                              <Component id="lblRemMmw" max="32767" attributes="0"/>
+                              <Component id="lblRemComProg" max="32767" attributes="0"/>
+                              <Component id="lblRemFoLa" max="32767" attributes="0"/>
+                              <Component id="lblRemComOrg" max="32767" attributes="0"/>
+                              <Component id="lblRemDiscrete" max="32767" attributes="0"/>
+                              <Component id="lblRemAqua" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblRemNstp" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="lblFinalRem" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="lblGradeEncoding" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblNo" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtNo" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="txtLastName" min="-2" pref="130" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblSection" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cmbBoxSection" min="-2" pref="130" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtFirstName" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtMidName" min="-2" pref="130" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="lblLastName" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                              <Component id="lblFirstName" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="lblMidName" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lblGradeEncoding" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSection" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxSection" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMidName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMidName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblGrades" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemarks" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblRemSineSos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblSineSos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSineSos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbBoxSineSos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblPurCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPurCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxPurCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemPurCom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblMmw" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMmw" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxMmw" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemMmw" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblComProg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtComProg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxComProg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemComProg" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtFoLa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFoLa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxFoLa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemFoLa" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtComOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblComOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxComOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemComOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblDiscrete" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtDiscrete" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbBoxDiscrete" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblRemDiscrete" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtAqua" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAqua" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxAqua" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemAqua" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtNstp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNstp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxNstp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRemNstp" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFinalRem" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnSave" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCompute" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="196" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblGradeEncoding">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grade Encoding"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMidName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lastname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Firstname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMidName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Middlename"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFirstName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSection">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Section Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxSection">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="SD1A"/>
+            <StringItem index="1" value="SD1B"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Course Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSineSos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SineSosyedad/Pelikulang Panlipunan (SINESOS)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUnits">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Units"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGrades">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Grades"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemarks">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Remarks"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPurCom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Purposive Communication"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMmw">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mathematics in the Modern World"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblComProg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Computer Programming II"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblComOrg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Computer Organization and Architecture with Assembly Programming"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDiscrete">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Discrete Math"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAqua">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aquatics"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNstp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="National Service Training Program 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSineSos">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPurCom">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMmw">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtComProg">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFoLa">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtComOrg">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFoLa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Foreign Language"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDiscrete">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAqua">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNstp">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxSineSos">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxSineSosActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxPurCom">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxPurComActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxMmw">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxMmwActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxComProg">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxComProgActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxFoLa">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxFoLaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxComOrg">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxComOrgActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxDiscrete">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxDiscreteActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxAqua">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxAquaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxNstp">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="17">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="1.25"/>
+            <StringItem index="2" value="1.50"/>
+            <StringItem index="3" value="1.75"/>
+            <StringItem index="4" value="2.0"/>
+            <StringItem index="5" value="2.25"/>
+            <StringItem index="6" value="2.50"/>
+            <StringItem index="7" value="2.75"/>
+            <StringItem index="8" value="3.0"/>
+            <StringItem index="9" value="3.25"/>
+            <StringItem index="10" value="3.50"/>
+            <StringItem index="11" value="3.75"/>
+            <StringItem index="12" value="4.0"/>
+            <StringItem index="13" value="4.25"/>
+            <StringItem index="14" value="4.50"/>
+            <StringItem index="15" value="4.75"/>
+            <StringItem index="16" value="5.0"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoxNstpActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemSineSos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemPurCom">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemMmw">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemComProg">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemFoLa">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemComOrg">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemDiscrete">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemAqua">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRemNstp">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFinal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Final Grade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFinal">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFinalRem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSED"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCompute">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Compute GWA"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnComputeActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable2">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="false" title="Student No." type="java.lang.Object"/>
+                <Column editable="false" title="Student Name" type="java.lang.Object"/>
+                <Column editable="false" title="GWA" type="java.lang.Object"/>
+                <Column editable="false" title="Remarks" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

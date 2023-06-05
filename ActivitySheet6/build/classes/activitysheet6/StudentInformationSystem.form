@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup8">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup9">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup10">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup11">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup12">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup13">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup14">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup15">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup16">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jCheckBox1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Student Information"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="lblInfo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                      <Component id="lblLastName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                      <Component id="lblFirstName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Component id="lblMidName" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="lblCollege" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblCampus" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblProgram" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSex" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="lblHobbies" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnMale" min="-2" pref="98" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnFemale" min="-2" pref="98" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ckBoxBrowsing" min="-2" pref="120" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ckBoxWatching" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ckBoxChatting" min="-2" pref="85" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ckBoxCooking" min="-2" pref="85" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ckBoxPlaying" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ckBoxListening" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" min="-2" pref="426" max="-2" attributes="0"/>
+                          <Component id="cmbBoxCollege" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnRegister" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="cmbBoxCampus" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                          <Component id="cmbBoxProgram" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblNo" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txtNo" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="txtLastName" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtFirstName" min="-2" pref="130" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtMidName" min="-2" pref="130" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInfo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMidName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMidName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblAddress" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblSex" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMale" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFemale" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ckBoxBrowsing" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ckBoxWatching" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ckBoxChatting" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ckBoxCooking" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ckBoxPlaying" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ckBoxListening" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblHobbies" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCampus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxCampus" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCollege" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxCollege" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblProgram" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbBoxProgram" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnRegister" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="205" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblInfo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Student Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Student Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFirstName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMidName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lastname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Firstname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMidName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Middlename"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txtAddress">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sex:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="btnMale">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Male"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="btnFemale">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Female"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxBrowsing">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Browsing Internet"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxWatching">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Watching TV"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxChatting">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chatting"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxPlaying">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Playing Games"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxListening">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Listening to Music"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckBoxCooking">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cooking"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHobbies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hobbies:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCampus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Campus:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxCampus">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="ABUCAY"/>
+            <StringItem index="1" value="MAIN"/>
+            <StringItem index="2" value="BALANGA"/>
+            <StringItem index="3" value="ORANI"/>
+            <StringItem index="4" value="DINALUPIHAN"/>
+            <StringItem index="5" value="BAGAC"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCollege">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="College:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxCollege">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="11">
+            <StringItem index="0" value="COLLEGE OF AGRICULTURE AND FISHERIES"/>
+            <StringItem index="1" value="COLLEGE OF ARTS AND SCIENCES"/>
+            <StringItem index="2" value="COLLEGE OF BUSINESS AND ACCOUNTANCY"/>
+            <StringItem index="3" value="COLLEGE OF EDUCATION"/>
+            <StringItem index="4" value="COLLEGE OF ENGINEERING &amp; ARCHITECTURE"/>
+            <StringItem index="5" value="COLLEGE OF INDUSTRIAL TECHNOLOGY"/>
+            <StringItem index="6" value="COLLEGE OF INFORMATION &amp; COMMUNICATION TECHNOLOGY"/>
+            <StringItem index="7" value="COLLEGE OF NURSING &amp; MIDWIFERY"/>
+            <StringItem index="8" value="COLLEGE OF TECHNICAL AND VOCATIONAL TRAINING"/>
+            <StringItem index="9" value="COLLEGE OF SOCIAL &amp; BEHAVIORAL SCIENCES"/>
+            <StringItem index="10" value="GRADUATE SCHOOL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblProgram">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Program:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoxProgram">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="89">
+            <StringItem index="0" value="AGRICULTURAL ENGINEERING"/>
+            <StringItem index="1" value="AGRICULTURE"/>
+            <StringItem index="2" value="CROP SCIENCE"/>
+            <StringItem index="3" value="ANIMAL SCIENCE"/>
+            <StringItem index="4" value="FISHERIES"/>
+            <StringItem index="5" value="HOTEL AND RESTAURANT MANAGEMENT"/>
+            <StringItem index="6" value="TOURISM MANAGEMENT"/>
+            <StringItem index="7" value="ACCOUNTANCY"/>
+            <StringItem index="8" value="BUSINESS ADMINISTRATION"/>
+            <StringItem index="9" value="HUMAN RESOURCE DEVELOPMENT MANAGEMENT"/>
+            <StringItem index="10" value="MARKETING MANAGEMENT"/>
+            <StringItem index="11" value="OPERATIONS MANAGEMENT"/>
+            <StringItem index="12" value="MANAGEMENT INFORMATION SYSTEMS"/>
+            <StringItem index="13" value="ENTREPRENEURSHIP"/>
+            <StringItem index="14" value="ASSOCIATE IN COMPUTER SECRETARIAL"/>
+            <StringItem index="15" value="ASSOCIATE IN COMPUTER TECHNOLOGY"/>
+            <StringItem index="16" value="ELEMENTARY EDUCATION"/>
+            <StringItem index="17" value="SECONDARY EDUCATION"/>
+            <StringItem index="18" value="AGRICULTURE"/>
+            <StringItem index="19" value="BIOLOGICAL SCIENCE"/>
+            <StringItem index="20" value="ENGLISH"/>
+            <StringItem index="21" value="FILIPINO"/>
+            <StringItem index="22" value="MATHEMATICS"/>
+            <StringItem index="23" value="MUSIC"/>
+            <StringItem index="24" value="ARTS"/>
+            <StringItem index="25" value="HEALTH AND PHYSICAL EDUCATION"/>
+            <StringItem index="26" value="PHYSICAL SCIENCE"/>
+            <StringItem index="27" value="SOCIAL STUDIES"/>
+            <StringItem index="28" value="TECHNOLOGY AND LIVELIHOOD EDUCATION"/>
+            <StringItem index="29" value="CERTIFICATE OF TEACHING PROGRAM"/>
+            <StringItem index="30" value="ARCHITECTURE"/>
+            <StringItem index="31" value="CIVIL ENGINEERING"/>
+            <StringItem index="32" value="ELECTRICAL ENGINEERING"/>
+            <StringItem index="33" value="ELECTRONICS ENGINEERING"/>
+            <StringItem index="34" value="MECHANICAL ENGINEERING"/>
+            <StringItem index="35" value="INDUSTRIAL TECHNOLOGY"/>
+            <StringItem index="36" value="AUTOMOTIVE TECHNOLOGY"/>
+            <StringItem index="37" value="DRAFTING TECHNOLOGY"/>
+            <StringItem index="38" value="ELECTRICAL TECHNOLOGY"/>
+            <StringItem index="39" value="ELECTRONICS TECHNOLOGY"/>
+            <StringItem index="40" value="FOOD TECHNOLOGY"/>
+            <StringItem index="41" value="MACHINE SHOP TECHNOLOGY"/>
+            <StringItem index="42" value="WELDING AND FABRICATION TECHNOLOGY"/>
+            <StringItem index="43" value="REFRIGERATION AND AIR CONDITIONING TECHNOLOGY"/>
+            <StringItem index="44" value="COMPUTER SCIENCE"/>
+            <StringItem index="45" value="NETWORK AND DATA COMMUNICATIONS"/>
+            <StringItem index="46" value="SOFTWARE DEVELOPMENT"/>
+            <StringItem index="47" value="INFORMATION TECHNOLOGY"/>
+            <StringItem index="48" value="NET AND WEB APPLICATION"/>
+            <StringItem index="49" value="ASSOCIATE IN TECHNICAL GRAPHICS"/>
+            <StringItem index="50" value="NURSING"/>
+            <StringItem index="51" value="MIDWIFERY"/>
+            <StringItem index="52" value="ENGINEERING TECHNOLOGY"/>
+            <StringItem index="53" value="ELECTRICAL ENGINEERING TECHNOLOGY"/>
+            <StringItem index="54" value="ELECTRONICS ENGINEERING TECHNOLOGY"/>
+            <StringItem index="55" value="MECHANICAL ENGINEERING TECHNOLOGY"/>
+            <StringItem index="56" value="WELDING AND FABRICATION ENGINEERING TECHNOLOGY"/>
+            <StringItem index="57" value="TWO-YEAR TRADE TECHNICIAN CURRICULUM"/>
+            <StringItem index="58" value="CIVIL TECHNOLOGY"/>
+            <StringItem index="59" value="DRAFTING TECHNOLOGY"/>
+            <StringItem index="60" value="ELECTRICAL TECHNOLOGY"/>
+            <StringItem index="61" value="GARMENTS TECHNOLOGY"/>
+            <StringItem index="62" value="FOOD TECHNOLOGY"/>
+            <StringItem index="63" value="FOUNDRY TECHNOLOGY"/>
+            <StringItem index="64" value="FURNITURE AND CABINET MAKING TECHNOLOGY"/>
+            <StringItem index="65" value="MACHINE SHOP TECHNOLOGY"/>
+            <StringItem index="66" value="WELDING &amp; FABRICATION TECHNOLOGY"/>
+            <StringItem index="67" value="TECHNOLOGY"/>
+            <StringItem index="68" value="AUTOMOTIVE TECHNOLOGY"/>
+            <StringItem index="69" value="REFRIGERATION &amp; AIR CONDITIONING TECHNOLOGY"/>
+            <StringItem index="70" value="PSYCHOLOGY"/>
+            <StringItem index="71" value="CLINICAL PSYCHOLOGY"/>
+            <StringItem index="72" value="INDUSTRIAL PSYCHOLOGY"/>
+            <StringItem index="73" value="DOCTOR OF EDUCATION"/>
+            <StringItem index="74" value="EDUCATIONAL MANAGEMENT"/>
+            <StringItem index="75" value="MASTER IN BUSINESS ADMINISTRATION"/>
+            <StringItem index="76" value="MASTER IN ENGINEERING MANAGEMENT"/>
+            <StringItem index="77" value="MASTER IN PUBLIC ADMINISTRATION"/>
+            <StringItem index="78" value="MASTER IN PHYSICAL EDUCATION &amp; SPORTS"/>
+            <StringItem index="79" value="MASTER IN ARTS IN EDUCATION"/>
+            <StringItem index="80" value="EDUCATIONAL MANAGEMENT"/>
+            <StringItem index="81" value="FILIPINO"/>
+            <StringItem index="82" value="GENERAL SCIENCE"/>
+            <StringItem index="83" value="GUIDANCE AND COUNSELING"/>
+            <StringItem index="84" value="LANGUAGE EDUCATION"/>
+            <StringItem index="85" value="MATHEMATICS"/>
+            <StringItem index="86" value="SOCIALS STUDIES"/>
+            <StringItem index="87" value="TECHNOLOGY AND HOME ECONOMICS"/>
+            <StringItem index="88" value="MASTER OF ARTS IN NURSING"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegister">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Register"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegisterActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="0">
+                <Column editable="false" title="Student No." type="java.lang.String"/>
+                <Column editable="false" title="Student Name" type="java.lang.String"/>
+                <Column editable="false" title="Program" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="1">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
